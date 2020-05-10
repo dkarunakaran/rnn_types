@@ -40,7 +40,7 @@ docker run -d -v 'host dir':'container dir' --name 'container name' 'image name'
 
 Eg:
 ```
-docker run -d -v /Users/dhanoopkarunakaran/Documents/projects/queless:/queless --name container1 dev_ubuntu18
+docker run -d -v /Users/Documents/projects/queless:/queless --name container1 dev_ubuntu18
 ```
 
 ### Getting into created container
