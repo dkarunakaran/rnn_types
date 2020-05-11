@@ -9,6 +9,7 @@ RUN apt-get -y install sudo
 #COPY shadow /etc/shadow
 
 # Setup git
+RUN apt-get update
 RUN apt-get install -y git
 RUN git config --global user.name "User Name"
 RUN git config --global user.email "------@something.com"
@@ -27,6 +28,9 @@ RUN apt-get install -y vim
 RUN apt-get install -y wget
 RUN apt-get install -y python-pip
 RUN apt-get update
+
+RUN pip install numpy==1.16
+RUN pip install tensorflow==2.0.0b0
 
 
 CMD ["tail", "-f", "/dev/null"]
