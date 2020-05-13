@@ -67,3 +67,9 @@ docker start 'container name'
 
 It is better to stop the container once we stop using it and resume whenever needed.
 
+### Code references:
+
+* https://stackabuse.com/solving-sequence-problems-with-lstm-in-keras/
+* https://stackabuse.com/solving-sequence-problems-with-lstm-in-keras-part-2/
+
+
